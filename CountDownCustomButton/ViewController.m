@@ -21,15 +21,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     [self setupCountTimeButton];
     [self setupStopCountButton];
 }
 // 计时按钮
 - (void)setupCountTimeButton {
     _countDownCode = [CountDownCustomButton buttonWithType:UIButtonTypeCustom];
-    _countDownCode.frame = CGRectMake(81, 200, 148, 32);
+    _countDownCode.frame = CGRectMake(81, 200, 148, 44);
     [_countDownCode setTitle:@"获取验证码" forState:UIControlStateNormal];
-    _countDownCode.backgroundColor = [UIColor blueColor];
+    _countDownCode.backgroundColor = [UIColor grayColor];
+    _countDownCode.clipsToBounds = YES;
+    _countDownCode.layer.cornerRadius = 10;
     [_countDownCode addTarget:self action:@selector(aclion:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_countDownCode];
     
@@ -51,10 +55,12 @@
 // 停止计时按钮
 - (void)setupStopCountButton {
     UIButton *stopBtn = [UIButton new];
-    stopBtn.frame = CGRectMake(81, 280, 148, 32);
-    stopBtn.backgroundColor = [UIColor redColor];
+    stopBtn.frame = CGRectMake(81, 300, 148, 44);
+    stopBtn.backgroundColor = [UIColor grayColor];
     [stopBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [stopBtn setTitle:@"点击停止" forState:UIControlStateNormal];
+    stopBtn.clipsToBounds = YES;
+    stopBtn.layer.cornerRadius = 10;
     [stopBtn addTarget:self action:@selector(stop:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:stopBtn];
 }

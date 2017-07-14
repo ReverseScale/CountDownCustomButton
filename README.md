@@ -12,6 +12,13 @@
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/34363730.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/67386066.jpg) |
 | 描述 | 通过 storyboard 搭建基本框架 | 通过CountDownCustomButton封装创建 |
 
+## Advantage 框架的优势
+* 1.文件少，代码简洁
+* 2.不依赖任何其他第三方库
+* 3.使用Block方式回调，效率高效，结构清晰
+* 4.NSTimer线程安全，无需手动管理释放
+* 5.具备较高自定义性
+
 ## Requirements 要求
 * iOS 7+
 * Xcode 8+

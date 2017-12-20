@@ -7,10 +7,10 @@
 
 封装常用的验证码倒计时功能，还你一个结构清晰的登录、注册页面。
 
-| 名称 |1.列表页 |2.展示页 |
-| ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/34363730.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/67386066.jpg) |
-| 描述 | 通过 storyboard 搭建基本框架 | 通过CountDownCustomButton封装创建 |
+| 名称 |1.列表页 |2.展示页 |3.展示页 |
+| ------------- | ------------- | ------------- | ------------- |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-12-20/88577558.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-12-20/91906539.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-12-20/9541158.jpg) |
+| 描述 | 通过 storyboard 搭建基本框架 | 通过CountDownCustomButton封装创建 | 多线程倒计时实现 |
 
 ## Advantage 框架的优势
 * 1.文件少，代码简洁

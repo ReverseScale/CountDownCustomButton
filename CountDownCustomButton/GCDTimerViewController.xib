@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -36,16 +36,16 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⌛" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVc-FG-JYr">
-                    <rect key="frame" x="171.5" y="381" width="32" height="33.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                    <rect key="frame" x="173.5" y="264" width="27" height="27.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="aVc-FG-JYr" firstAttribute="top" secondItem="geN-To-QQX" secondAttribute="bottom" constant="25" id="8yt-ap-byB"/>
                 <constraint firstItem="geN-To-QQX" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="AJL-LT-NhC"/>
+                <constraint firstItem="geN-To-QQX" firstAttribute="top" secondItem="aVc-FG-JYr" secondAttribute="bottom" constant="20" id="ZUf-Kp-LYq"/>
                 <constraint firstItem="aVc-FG-JYr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="m0K-20-uDs"/>
                 <constraint firstAttribute="trailing" secondItem="geN-To-QQX" secondAttribute="trailing" constant="80" id="pp6-Yj-Ggm"/>
                 <constraint firstItem="geN-To-QQX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="80" id="tZj-n8-TYJ"/>

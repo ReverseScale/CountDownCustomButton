@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3476583F2060E59A00BD69DA /* CaptchaTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3476583D2060E59A00BD69DA /* CaptchaTimerManager.m */; };
 		34A1C8461EFCF93000BCE1A4 /* CountDownCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C8451EFCF93000BCE1A4 /* CountDownCustomButton.m */; };
 		34A3ECB01EC01B39004ECC31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A3ECAF1EC01B39004ECC31 /* main.m */; };
 		34A3ECB31EC01B39004ECC31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A3ECB21EC01B39004ECC31 /* AppDelegate.m */; };
@@ -17,7 +18,6 @@
 		34A3ECC91EC01B39004ECC31 /* CountDownCustomButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A3ECC81EC01B39004ECC31 /* CountDownCustomButtonTests.m */; };
 		34A3ECD41EC01B3A004ECC31 /* CountDownCustomButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A3ECD31EC01B3A004ECC31 /* CountDownCustomButtonUITests.m */; };
 		34B53F4D1F0E32C200B83901 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B53F4C1F0E32C200B83901 /* TableViewController.m */; };
-		34E72ADF1FEA3F1B00AA0E85 /* CaptchaTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E72ADE1FEA3F1B00AA0E85 /* CaptchaTimerManager.m */; };
 		34E72AE61FEA3FB200AA0E85 /* GCDTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E72AE41FEA3FB200AA0E85 /* GCDTimerViewController.m */; };
 		34E72AE71FEA3FB200AA0E85 /* GCDTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E72AE51FEA3FB200AA0E85 /* GCDTimerViewController.xib */; };
 /* End PBXBuildFile section */
@@ -40,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3476583D2060E59A00BD69DA /* CaptchaTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptchaTimerManager.m; sourceTree = "<group>"; };
+		3476583E2060E59A00BD69DA /* CaptchaTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptchaTimerManager.h; sourceTree = "<group>"; };
 		34A1C8441EFCF93000BCE1A4 /* CountDownCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownCustomButton.h; sourceTree = "<group>"; };
 		34A1C8451EFCF93000BCE1A4 /* CountDownCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownCustomButton.m; sourceTree = "<group>"; };
 		34A3ECAB1EC01B39004ECC31 /* CountDownCustomButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDownCustomButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,8 +62,6 @@
 		34A3ECD51EC01B3A004ECC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34B53F4B1F0E32C200B83901 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		34B53F4C1F0E32C200B83901 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		34E72ADD1FEA3F1B00AA0E85 /* CaptchaTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptchaTimerManager.h; sourceTree = "<group>"; };
-		34E72ADE1FEA3F1B00AA0E85 /* CaptchaTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptchaTimerManager.m; sourceTree = "<group>"; };
 		34E72AE31FEA3FB200AA0E85 /* GCDTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTimerViewController.h; sourceTree = "<group>"; };
 		34E72AE41FEA3FB200AA0E85 /* GCDTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTimerViewController.m; sourceTree = "<group>"; };
 		34E72AE51FEA3FB200AA0E85 /* GCDTimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GCDTimerViewController.xib; sourceTree = "<group>"; };
@@ -95,6 +95,8 @@
 		34A1C8431EFCF93000BCE1A4 /* CountDownCustomButton */ = {
 			isa = PBXGroup;
 			children = (
+				3476583E2060E59A00BD69DA /* CaptchaTimerManager.h */,
+				3476583D2060E59A00BD69DA /* CaptchaTimerManager.m */,
 				34A1C8441EFCF93000BCE1A4 /* CountDownCustomButton.h */,
 				34A1C8451EFCF93000BCE1A4 /* CountDownCustomButton.m */,
 			);
@@ -126,8 +128,6 @@
 			children = (
 				34A3ECB11EC01B39004ECC31 /* AppDelegate.h */,
 				34A3ECB21EC01B39004ECC31 /* AppDelegate.m */,
-				34E72ADD1FEA3F1B00AA0E85 /* CaptchaTimerManager.h */,
-				34E72ADE1FEA3F1B00AA0E85 /* CaptchaTimerManager.m */,
 				34B53F4B1F0E32C200B83901 /* TableViewController.h */,
 				34B53F4C1F0E32C200B83901 /* TableViewController.m */,
 				34A3ECB41EC01B39004ECC31 /* TimerViewController.h */,
@@ -308,8 +308,8 @@
 			files = (
 				34A3ECB61EC01B39004ECC31 /* TimerViewController.m in Sources */,
 				34A3ECB31EC01B39004ECC31 /* AppDelegate.m in Sources */,
-				34E72ADF1FEA3F1B00AA0E85 /* CaptchaTimerManager.m in Sources */,
 				34A1C8461EFCF93000BCE1A4 /* CountDownCustomButton.m in Sources */,
+				3476583F2060E59A00BD69DA /* CaptchaTimerManager.m in Sources */,
 				34E72AE61FEA3FB200AA0E85 /* GCDTimerViewController.m in Sources */,
 				34B53F4D1F0E32C200B83901 /* TableViewController.m in Sources */,
 				34A3ECB01EC01B39004ECC31 /* main.m in Sources */,
@@ -463,7 +463,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
 				INFOPLIST_FILE = CountDownCustomButton/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -477,7 +476,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
 				INFOPLIST_FILE = CountDownCustomButton/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

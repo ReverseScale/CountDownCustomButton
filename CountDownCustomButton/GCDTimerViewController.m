@@ -58,12 +58,15 @@
                 //这里写倒计时结束button的处理
                 [_timeButton setEnabled:YES];
                 _timeLabel.text = @"⌛";
+                [_timeButton setTitle:@"⌛" forState:UIControlStateNormal];
             });
         } else {
             dispatch_async(dispatch_get_main_queue(), ^{
                 //这里写倒计时期间button的处理（重设button的tiitle、用户交互等）
                 [_timeButton setEnabled:NO];
                 _timeLabel.text = [[NSString alloc] initWithFormat:@"⏳ - %d",_timeout];
+                [_timeButton setTitle:[[NSString alloc] initWithFormat:@"⏳ - %d",_timeout] forState:UIControlStateNormal];
+
             });
             _timeout--;
         }

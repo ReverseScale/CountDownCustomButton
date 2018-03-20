@@ -94,7 +94,7 @@ pod 'CountDownCustomButtonLib', '~> 0.3.0’
     CaptchaTimerManager *manager = [CaptchaTimerManager sharedTimerManager];
     int temp = manager.timeout;
     if (temp > 0) {
-        _timeout= temp; //倒计时时间
+        _timeout= temp; // Countdown time
         [self timerCountDown];
     }
 }
@@ -106,8 +106,8 @@ pod 'CountDownCustomButtonLib', '~> 0.3.0’
             manager.timeout = _timeout;
             [manager countDown];
         }
-        _timeout = 0;//置为0，释放controller
-    }
+        _timeout = 0;// Set to 0 to release the controller
+    }
 }
 ```
 
